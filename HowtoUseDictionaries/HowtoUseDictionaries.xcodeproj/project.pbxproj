@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71B58A626370FFA00CFE0EC /* AddFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B58A526370FFA00CFE0EC /* AddFolderView.swift */; };
+		E7401961262DC9530049DA67 /* HowtoUseDictionariesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7401960262DC9530049DA67 /* HowtoUseDictionariesApp.swift */; };
+		E7401963262DC9530049DA67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7401962262DC9530049DA67 /* ContentView.swift */; };
+		E7401965262DC9550049DA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7401964262DC9550049DA67 /* Assets.xcassets */; };
+		E7401968262DC9550049DA67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7401967262DC9550049DA67 /* Preview Assets.xcassets */; };
+		E7401973262DC9550049DA67 /* HowtoUseDictionariesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7401972262DC9550049DA67 /* HowtoUseDictionariesTests.swift */; };
+		E740197E262DC9550049DA67 /* HowtoUseDictionariesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E740197D262DC9550049DA67 /* HowtoUseDictionariesUITests.swift */; };
+		E740198F262DD36A0049DA67 /* FolderStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E740198E262DD36A0049DA67 /* FolderStruct.swift */; };
+		E7401995262DDF1B0049DA67 /* FolderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7401994262DDF1B0049DA67 /* FolderScrollView.swift */; };
+		E758EDC1263B0ADF00CA1F13 /* Editword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758EDC0263B0ADF00CA1F13 /* Editword.swift */; };
+		E777F0A42631DED2002BBD05 /* FolderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777F0A32631DED2002BBD05 /* FolderCardView.swift */; };
+		E777F0A92631E128002BBD05 /* FolderGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777F0A82631E128002BBD05 /* FolderGridView.swift */; };
+		E7B31364262F25C3002AE5A8 /* DummyFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B31363262F25C3002AE5A8 /* DummyFolder.swift */; };
+		E7B31387262F392F002AE5A8 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B31386262F392E002AE5A8 /* WordCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E740196F262DC9550049DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7401955262DC9530049DA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E740195C262DC9530049DA67;
+			remoteInfo = HowtoUseDictionaries;
+		};
+		E740197A262DC9550049DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7401955262DC9530049DA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E740195C262DC9530049DA67;
+			remoteInfo = HowtoUseDictionaries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E71B58A526370FFA00CFE0EC /* AddFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFolderView.swift; sourceTree = "<group>"; };
+		E740195D262DC9530049DA67 /* HowtoUseDictionaries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowtoUseDictionaries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7401960262DC9530049DA67 /* HowtoUseDictionariesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoUseDictionariesApp.swift; sourceTree = "<group>"; };
+		E7401962262DC9530049DA67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7401964262DC9550049DA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7401967262DC9550049DA67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7401969262DC9550049DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E740196E262DC9550049DA67 /* HowtoUseDictionariesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowtoUseDictionariesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7401972262DC9550049DA67 /* HowtoUseDictionariesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoUseDictionariesTests.swift; sourceTree = "<group>"; };
+		E7401974262DC9550049DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7401979262DC9550049DA67 /* HowtoUseDictionariesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowtoUseDictionariesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E740197D262DC9550049DA67 /* HowtoUseDictionariesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoUseDictionariesUITests.swift; sourceTree = "<group>"; };
+		E740197F262DC9550049DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E740198E262DD36A0049DA67 /* FolderStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderStruct.swift; sourceTree = "<group>"; };
+		E7401994262DDF1B0049DA67 /* FolderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScrollView.swift; sourceTree = "<group>"; };
+		E758EDC0263B0ADF00CA1F13 /* Editword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editword.swift; sourceTree = "<group>"; };
+		E777F0A32631DED2002BBD05 /* FolderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCardView.swift; sourceTree = "<group>"; };
+		E777F0A82631E128002BBD05 /* FolderGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderGridView.swift; sourceTree = "<group>"; };
+		E7B31363262F25C3002AE5A8 /* DummyFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyFolder.swift; sourceTree = "<group>"; };
+		E7B31386262F392E002AE5A8 /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E740195A262DC9530049DA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E740196B262DC9550049DA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7401976262DC9550049DA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7401954262DC9530049DA67 = {
+			isa = PBXGroup;
+			children = (
+				E740195F262DC9530049DA67 /* HowtoUseDictionaries */,
+				E7401971262DC9550049DA67 /* HowtoUseDictionariesTests */,
+				E740197C262DC9550049DA67 /* HowtoUseDictionariesUITests */,
+				E740195E262DC9530049DA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E740195E262DC9530049DA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E740195D262DC9530049DA67 /* HowtoUseDictionaries.app */,
+				E740196E262DC9550049DA67 /* HowtoUseDictionariesTests.xctest */,
+				E7401979262DC9550049DA67 /* HowtoUseDictionariesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E740195F262DC9530049DA67 /* HowtoUseDictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				E7401993262DDF070049DA67 /* Views */,
+				E7401960262DC9530049DA67 /* HowtoUseDictionariesApp.swift */,
+				E7401964262DC9550049DA67 /* Assets.xcassets */,
+				E7401969262DC9550049DA67 /* Info.plist */,
+				E7401966262DC9550049DA67 /* Preview Content */,
+				E740198E262DD36A0049DA67 /* FolderStruct.swift */,
+				E7B31363262F25C3002AE5A8 /* DummyFolder.swift */,
+			);
+			path = HowtoUseDictionaries;
+			sourceTree = "<group>";
+		};
+		E7401966262DC9550049DA67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7401967262DC9550049DA67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7401971262DC9550049DA67 /* HowtoUseDictionariesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7401972262DC9550049DA67 /* HowtoUseDictionariesTests.swift */,
+				E7401974262DC9550049DA67 /* Info.plist */,
+			);
+			path = HowtoUseDictionariesTests;
+			sourceTree = "<group>";
+		};
+		E740197C262DC9550049DA67 /* HowtoUseDictionariesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E740197D262DC9550049DA67 /* HowtoUseDictionariesUITests.swift */,
+				E740197F262DC9550049DA67 /* Info.plist */,
+			);
+			path = HowtoUseDictionariesUITests;
+			sourceTree = "<group>";
+		};
+		E7401993262DDF070049DA67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7401962262DC9530049DA67 /* ContentView.swift */,
+				E7401994262DDF1B0049DA67 /* FolderScrollView.swift */,
+				E7B31386262F392E002AE5A8 /* WordCardView.swift */,
+				E777F0A32631DED2002BBD05 /* FolderCardView.swift */,
+				E777F0A82631E128002BBD05 /* FolderGridView.swift */,
+				E71B58A526370FFA00CFE0EC /* AddFolderView.swift */,
+				E758EDC0263B0ADF00CA1F13 /* Editword.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E740195C262DC9530049DA67 /* HowtoUseDictionaries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7401982262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionaries" */;
+			buildPhases = (
+				E7401959262DC9530049DA67 /* Sources */,
+				E740195A262DC9530049DA67 /* Frameworks */,
+				E740195B262DC9530049DA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowtoUseDictionaries;
+			productName = HowtoUseDictionaries;
+			productReference = E740195D262DC9530049DA67 /* HowtoUseDictionaries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E740196D262DC9550049DA67 /* HowtoUseDictionariesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7401985262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionariesTests" */;
+			buildPhases = (
+				E740196A262DC9550049DA67 /* Sources */,
+				E740196B262DC9550049DA67 /* Frameworks */,
+				E740196C262DC9550049DA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7401970262DC9550049DA67 /* PBXTargetDependency */,
+			);
+			name = HowtoUseDictionariesTests;
+			productName = HowtoUseDictionariesTests;
+			productReference = E740196E262DC9550049DA67 /* HowtoUseDictionariesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7401978262DC9550049DA67 /* HowtoUseDictionariesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7401988262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionariesUITests" */;
+			buildPhases = (
+				E7401975262DC9550049DA67 /* Sources */,
+				E7401976262DC9550049DA67 /* Frameworks */,
+				E7401977262DC9550049DA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E740197B262DC9550049DA67 /* PBXTargetDependency */,
+			);
+			name = HowtoUseDictionariesUITests;
+			productName = HowtoUseDictionariesUITests;
+			productReference = E7401979262DC9550049DA67 /* HowtoUseDictionariesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7401955262DC9530049DA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E740195C262DC9530049DA67 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E740196D262DC9550049DA67 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E740195C262DC9530049DA67;
+					};
+					E7401978262DC9550049DA67 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E740195C262DC9530049DA67;
+					};
+				};
+			};
+			buildConfigurationList = E7401958262DC9530049DA67 /* Build configuration list for PBXProject "HowtoUseDictionaries" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7401954262DC9530049DA67;
+			productRefGroup = E740195E262DC9530049DA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E740195C262DC9530049DA67 /* HowtoUseDictionaries */,
+				E740196D262DC9550049DA67 /* HowtoUseDictionariesTests */,
+				E7401978262DC9550049DA67 /* HowtoUseDictionariesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E740195B262DC9530049DA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7401968262DC9550049DA67 /* Preview Assets.xcassets in Resources */,
+				E7401965262DC9550049DA67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E740196C262DC9550049DA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7401977262DC9550049DA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7401959262DC9530049DA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B31387262F392F002AE5A8 /* WordCardView.swift in Sources */,
+				E7401963262DC9530049DA67 /* ContentView.swift in Sources */,
+				E7401961262DC9530049DA67 /* HowtoUseDictionariesApp.swift in Sources */,
+				E777F0A42631DED2002BBD05 /* FolderCardView.swift in Sources */,
+				E777F0A92631E128002BBD05 /* FolderGridView.swift in Sources */,
+				E7401995262DDF1B0049DA67 /* FolderScrollView.swift in Sources */,
+				E7B31364262F25C3002AE5A8 /* DummyFolder.swift in Sources */,
+				E740198F262DD36A0049DA67 /* FolderStruct.swift in Sources */,
+				E71B58A626370FFA00CFE0EC /* AddFolderView.swift in Sources */,
+				E758EDC1263B0ADF00CA1F13 /* Editword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E740196A262DC9550049DA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7401973262DC9550049DA67 /* HowtoUseDictionariesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7401975262DC9550049DA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E740197E262DC9550049DA67 /* HowtoUseDictionariesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7401970262DC9550049DA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E740195C262DC9530049DA67 /* HowtoUseDictionaries */;
+			targetProxy = E740196F262DC9550049DA67 /* PBXContainerItemProxy */;
+		};
+		E740197B262DC9550049DA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E740195C262DC9530049DA67 /* HowtoUseDictionaries */;
+			targetProxy = E740197A262DC9550049DA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7401980262DC9550049DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7401981262DC9550049DA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7401983262DC9550049DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HowtoUseDictionaries/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HowtoUseDictionaries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionaries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7401984262DC9550049DA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HowtoUseDictionaries/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HowtoUseDictionaries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionaries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7401986262DC9550049DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowtoUseDictionariesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionariesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowtoUseDictionaries.app/HowtoUseDictionaries";
+			};
+			name = Debug;
+		};
+		E7401987262DC9550049DA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowtoUseDictionariesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionariesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowtoUseDictionaries.app/HowtoUseDictionaries";
+			};
+			name = Release;
+		};
+		E7401989262DC9550049DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowtoUseDictionariesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionariesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowtoUseDictionaries;
+			};
+			name = Debug;
+		};
+		E740198A262DC9550049DA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowtoUseDictionariesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = web.Shaggy.HowtoUseDictionariesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowtoUseDictionaries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7401958262DC9530049DA67 /* Build configuration list for PBXProject "HowtoUseDictionaries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7401980262DC9550049DA67 /* Debug */,
+				E7401981262DC9550049DA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7401982262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionaries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7401983262DC9550049DA67 /* Debug */,
+				E7401984262DC9550049DA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7401985262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionariesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7401986262DC9550049DA67 /* Debug */,
+				E7401987262DC9550049DA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7401988262DC9550049DA67 /* Build configuration list for PBXNativeTarget "HowtoUseDictionariesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7401989262DC9550049DA67 /* Debug */,
+				E740198A262DC9550049DA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7401955262DC9530049DA67 /* Project object */;
+}
